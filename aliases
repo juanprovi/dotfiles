@@ -5,3 +5,19 @@ alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/download
 
 # Quickly serve the current directory as HTTP
 alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
+
+#alias for wattics dashbaord
+alias wattics='cd /Users/jcouso/code/Wattics/Dashboard_v2'
+
+#alias for picoz folder
+alias picoz='cd /Users/jcouso/code/jcouso/spotts'
+
+#alias for hertz folder
+alias hert='cd /Users/jcouso/code/jcouso/weather-app-node'
+
+#tmux fix for colors in vim
+#alias tmux="TERM=screen-256color-bce tmux"
+
+#alias to my personal coding folder
+
+alias jcouso='cd /Users/jcouso/code/jcouso'

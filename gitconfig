@@ -12,6 +12,7 @@
 [core]
   pager = less -FRSX
 	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
+	excludesfile = /Users/jcouso/.global_ignore
 
 [alias]
   co = checkout
@@ -42,10 +43,15 @@
   autocorrect = 1
 
 [push]
-	default = simple
+	default = current
 
 [branch "master"]
   mergeoptions = --no-edit
 [user]
 	email = juan.couso@gmail.com
 	name = Juan Couso
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
