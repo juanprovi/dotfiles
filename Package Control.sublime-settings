@@ -1,16 +1,33 @@
 {
-  "installed_packages":
-  [
-    "AdvancedNewFile",
-    "All Autocomplete",
-    "ApplySyntax",
-    "BracketHighlighter",
-    "Emmet",
-    "Git",
-    "GitGutter",
-    "JSX",
-    "Package Control",
-    "SCSS",
-    "ERB Snippets"
-  ]
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"Anaconda",
+		"ApplySyntax",
+		"BracketHighlighter",
+		"C Improved",
+		"Color Highlighter",
+		"ColorPick",
+		"ElixirSyntax",
+		"Emmet",
+		"Emmet Css Snippets",
+		"ERB Snippets",
+		"Git",
+		"GitGutter",
+		"JSX",
+		"Package Control",
+		"SCSS",
+		"SCSS Compiler",
+		"SublimeHaskell",
+		"SublimeLinter-contrib-sublime-syntax",
+		"SublimeLinter-jsxhint",
+		"Theme - Soda",
+		"Vuejs Complete Package"
+	]
 }
