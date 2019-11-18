@@ -48,8 +48,8 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = juan.couso@gmail.com
-	name = Juan Couso
+	email = juan@provi.com.br
+	name = juan couso
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
